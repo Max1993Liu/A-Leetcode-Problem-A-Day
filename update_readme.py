@@ -5,11 +5,10 @@ import itertools
 
 
 def get_create_time(path):
-	ctime = os.path.getctime(path)
+	ctime = os.path.getatime(path)
 	ctime = time.localtime(ctime)
-	return time.strftime('%Y-%m-%d')
-
-
+	return time.strftime('%Y-%m-%d', ctime)
+	
 def get_question_num_and_name(path):
 	lst = path.split('-')
 	return lst[0][-4:], '-'.join(lst[1:])[:-3]
@@ -17,6 +16,7 @@ def get_question_num_and_name(path):
 
 solutions = glob.glob('./problems/*.py')
 solutions_with_time = [(s, get_create_time(s)) for s in solutions]
+print(solutions_with_time)
 solutions_by_date = itertools.groupby(solutions_with_time, key=lambda x: x[1])
 
 output = ''
