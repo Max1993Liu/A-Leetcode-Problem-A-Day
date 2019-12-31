@@ -6,4 +6,8 @@
   - maximum-depth-of-binary-tree
   - convert-sorted-array-to-binary-search-tree
   - maximum-depth-of-n-ary-tree
+#### 2019-12-31
+  - relative-sort-array
+  - minimum-time-visiting-all-points
+#### 2019-12-29
   - deepest-leaves-sum
