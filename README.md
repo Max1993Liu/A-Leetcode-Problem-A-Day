@@ -8,6 +8,8 @@
   - maximum-depth-of-binary-tree
   - convert-sorted-array-to-binary-search-tree
   - maximum-depth-of-n-ary-tree
+#### 2020-01-03
+  - to-lower-case
 #### 2019-12-31
   - minimum-time-visiting-all-points
 #### 2019-12-29

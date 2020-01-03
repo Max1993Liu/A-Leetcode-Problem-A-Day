@@ -6,7 +6,7 @@
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         if root is None:
-            return None
+            return []
 
         res = []
         def helper(node):
@@ -18,3 +18,4 @@ class Solution:
 
         helper(root)
         return res
+
