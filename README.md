@@ -2,6 +2,9 @@
   - flatten-binary-tree
 #### 2020-01-01
   - minimum-time-visiting-all-points
+#### 2020-01-04
+  - to-lower-case
+#### 2020-01-01
   - deepest-leaves-sum
 #### 2020-01-04
   - maximum-depth-of-binary-tree
@@ -10,4 +13,4 @@
   - subsets
   - convert-sorted-array-to-binary-search-tree
   - maximum-depth-of-n-ary-tree
-  - relative-sort-array
+  - binary-tree-inorder-traversal
