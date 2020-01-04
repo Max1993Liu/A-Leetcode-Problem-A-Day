@@ -1,13 +1,13 @@
-#### 2019-12-30
-  - remove_element
-  - next-permutation
-  - subsets
-#### 2019-12-29
+#### 2020-01-04
+  - flatten-binary-tree
+#### 2020-01-01
+  - minimum-time-visiting-all-points
+  - deepest-leaves-sum
+#### 2020-01-04
   - maximum-depth-of-binary-tree
+  - next-permutation
+  - remove_element
+  - subsets
   - convert-sorted-array-to-binary-search-tree
   - maximum-depth-of-n-ary-tree
-#### 2019-12-31
   - relative-sort-array
-  - minimum-time-visiting-all-points
-#### 2019-12-29
-  - deepest-leaves-sum
